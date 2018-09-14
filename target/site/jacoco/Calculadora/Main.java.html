@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">pa-app</a> &gt; <a href="index.source.html" class="el_package">Calculadora</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package Calculadora;
+
+import java.util.logging.Logger;
+
+import pa.app.App;
+
+<span class="fc" id="L7">public class Main {</span>
+	
+<span class="fc" id="L9">		private static final Logger logger = Logger.getLogger( Main.class.getName() );</span>
+	    public static void main( String[] args )
+	    {
+<span class="fc" id="L12">	    	Main main = new Main();</span>
+<span class="fc" id="L13">			logger.info(&quot;Soma 1+2=&quot;+ main.soma(1,2));</span>
+<span class="fc" id="L14">			logger.info(&quot;Subtração 4-2=&quot;+ main.sub(4,2));</span>
+<span class="fc" id="L15">			logger.info(&quot;Multiplicação 1*2=&quot;+ main.multi(1,2));</span>
+<span class="fc" id="L16">			logger.info(&quot;Divisão 4/2=&quot;+ main.div(4,2));</span>
+<span class="fc" id="L17">	    }</span>
+		
+		public int soma(int s1, int s2) {
+<span class="fc" id="L20">			return s1+s2;</span>
+		}
+		public int sub(int s1, int s2) {
+<span class="fc" id="L23">			return s1-s2;</span>
+		}
+		public int multi(int s1, int s2) {
+<span class="fc" id="L26">			return s1*s2;</span>
+		}
+		public int div(int s1, int s2) {
+<span class="fc" id="L29">			return s1/s2;</span>
+		}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.8.201612092310</span></div></body></html>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="pa.app.CarrinhoComprasTest" time="0.013" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="pa.app.CarrinhoComprasTest" time="0.01" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
@@ -68,10 +68,10 @@
   <testcase name="testRemoveProductAlto" classname="pa.app.CarrinhoComprasTest" time="0.001"/>
   <testcase name="testRemoveProduct" classname="pa.app.CarrinhoComprasTest" time="0.001"/>
   <testcase name="testSize" classname="pa.app.CarrinhoComprasTest" time="0.001"/>
-  <testcase name="testToString" classname="pa.app.CarrinhoComprasTest" time="0.001"/>
-  <testcase name="testSetProdutos" classname="pa.app.CarrinhoComprasTest" time="0.001"/>
+  <testcase name="testToString" classname="pa.app.CarrinhoComprasTest" time="0"/>
+  <testcase name="testSetProdutos" classname="pa.app.CarrinhoComprasTest" time="0"/>
   <testcase name="testGetProdutos" classname="pa.app.CarrinhoComprasTest" time="0"/>
   <testcase name="testAddProduto" classname="pa.app.CarrinhoComprasTest" time="0.002"/>
-  <testcase name="testRemoveProductFalse" classname="pa.app.CarrinhoComprasTest" time="0.002"/>
+  <testcase name="testRemoveProductFalse" classname="pa.app.CarrinhoComprasTest" time="0"/>
   <testcase name="testCarrinhoComprasArrayListOfProduto" classname="pa.app.CarrinhoComprasTest" time="0.002"/>
 </testsuite>

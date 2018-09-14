@@ -2,5 +2,5 @@ projectKey=pa.app:pa-app
 serverUrl=http://localhost:9000
 serverVersion=7.3.0.15553
 dashboardUrl=http://localhost:9000/dashboard?id=pa.app%3Apa-app
-ceTaskId=AWXTmO4z9BWnfVCTRROB
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AWXTmO4z9BWnfVCTRROB
+ceTaskId=AWXXWnb-j2r4B4IoLBlK
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWXXWnb-j2r4B4IoLBlK
