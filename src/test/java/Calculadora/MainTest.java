@@ -10,7 +10,7 @@ class MainTest {
 
 	@Test
 	void testMain() {
-		main.main(null);
+		Main.main(null);
 	}
 
 	@Test
