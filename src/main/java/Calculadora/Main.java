@@ -1,8 +1,6 @@
-package Calculadora;
+package calculadora;
 
 import java.util.logging.Logger;
-
-import pa.app.App;
 
 public class Main {
 	

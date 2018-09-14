@@ -1,10 +1,9 @@
-package Calculadora;
+package calculadora;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import pa.app.App;
 
 class MainTest {
 	Main main = new Main();
